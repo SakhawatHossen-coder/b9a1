@@ -19,6 +19,9 @@ a {
 li {
   list-style: none;
 }
+button {
+  /* border: none; */
+}
 /* General */
 .red {
   color: #f00;
@@ -45,7 +48,6 @@ li {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Bannerbg.png");
   background-repeat: no-repeat;
-
 }
 .banner_content h3 {
   padding-top: 11rem;
@@ -62,31 +64,88 @@ h3 {
   text-align: center;
 }
 
-     /* <!-- Discount Section --> */
+/* <!-- Discount Section --> */
 
-.discount_container{
-     max-width: 90rem;
-     /* margin: auto; */
-     margin-top: 7.5rem;
-     text-align: center;
+.discount_container {
+  max-width: 90rem;
+  /* margin: auto; */
+  margin-top: 7.5rem;
+  text-align: center;
 }
-.discount_content>h1{
- font-size: 5.5rem;
+.discount_content > h1 {
+  font-size: 5.5rem;
 }
-.discount_content p{
-     padding-top: 3rem;
-     padding-bottom: 1rem;
-     font-size: 1.5rem;
+.discount_content p {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
 }
-.text_category h2{
-     font-size: 3rem;
-     font-weight: 700;
+.text_category h2 {
+  font-size: 3rem;
+  font-weight: 700;
 }
-.discount_image{
-     max-width: 50rem;
-     margin:2rem auto;
+.discount_image {
+  max-width: 50rem;
+  margin: 2rem auto;
 }
-.discount_image img{
-width: 90%;
-margin-bottom: 7.5rem;
+.discount_image img {
+  width: 90%;
+  margin-bottom: 7.5rem;
+}
+/* <!-- Welcome Section --> */
+
+.welcome_container {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+.welcome_content {
+  padding-left: 6rem;
+  padding-top: 6rem;
+}
+.welcome_content h1 {
+  /* line-height: 2.5rem; */
+  font-weight: 900;
+  font-size: 4rem;
+}
+.welcome_content p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.55rem;
+  margin-bottom: 3rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.welcome_image {
+  max-width: 20rem;
+  padding: 4.2rem 0 8.6rem;
+}
+.welcome_image img {
+  width: 90%;
+  padding-left: 2.25rem;
+}
+.btn_join {
+  text-align: center;
+  background-color: rgb(46, 18, 27);
+  /* border: 2px solid pink; */
+  padding: 1.125rem 1.5rem;
+  border: none;
+  border-radius: 0.8rem;
+  margin-bottom: 8.85rem;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+}
+.btn_join:hover {
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+.btn_join a {
+  font-size: 1.125rem;
+  color: #fff;
 }
