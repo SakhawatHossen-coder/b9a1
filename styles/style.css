@@ -43,7 +43,7 @@ input{
 /* Banner Section  */
 .container {
   max-width: 80rem;
-  margin: 3.15rem auto;
+  margin: 3.15rem auto 0 auto;
 }
 .banner_content {
   border-radius: 1rem;
@@ -323,4 +323,56 @@ cursor: pointer;
 .form_btn a{
 color: white;
 font-size: 1.25rem;
+}
+/* footer_section */
+#footer_section{
+  margin-top: 7.5rem;
+  background-color: #070211;
+  color: hsl(0, 0%, 100%);
+}
+.footer_container{
+  padding-top: 7.5rem;
+
+}
+.footer_info{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.15rem;
+  align-items: center;
+}
+.footer_info_right{
+  padding: 1.5rem;
+  border: 2px solid wheat;
+
+}
+.footer_info_right span{
+  font-size: 1.5rem;
+  /* padding: 1rem; */
+}
+.footer_info_right img{
+  padding: 0 .5rem;
+  margin-left: .5rem;
+ padding-top: 1.5rem;
+}
+.footer_info_left h3{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.footer_social{
+  margin: 3rem 1.5rem;
+  padding: 0 2rem;
+  text-align: center;
+}
+.footer_social img{
+  margin: 3rem 1.5rem;
+
+}
+.footer_text{
+  display: flex;
+  margin-top: 3.15rem;
+  justify-content: space-between;
+}
+.footer_text p{
+  color: #fff;
+  font-size: 1.5rem;
 }
